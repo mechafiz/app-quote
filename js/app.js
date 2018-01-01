@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	function traerFrase(){
 		$.ajax({
-			url:'https://crossorig.in/https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en',
+			url:'https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en',
 
 			success: function(datos) {
 		    	console.log(datos)
